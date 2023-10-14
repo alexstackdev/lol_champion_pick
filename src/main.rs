@@ -168,7 +168,7 @@ async fn read_stdin(tx: channel::Sender<STATUS>) {
             }
             Err(e) => println!("error in read_stdin: {}", e),
         }
-        tx.send(STATUS::INPUT(input.clone().replace("\n", "")))
+        tx.send(STATUS::INPUT(input.clone().replace("\r\n", "").replace("\n", "")))
             .expect("send input err");
     }
 }
