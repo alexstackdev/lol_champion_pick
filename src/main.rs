@@ -147,11 +147,15 @@ async fn show_champion_list(selected_champion_id: &i32, vec_champions: &Vec<(Str
 }
 
 pub fn clear_screen() {
-    assert!(std::process::Command::new("cls")
-        .status()
-        .or_else(|_| std::process::Command::new("clear").status())
-        .unwrap()
-        .success());
+    if cfg!(target_os = "windows") {
+        std::process::Command::new("cls")
+            .status()
+            .unwrap_or_default();
+    } else {
+        std::process::Command::new("clear")
+            .status()
+            .unwrap_or_default();
+    }
 }
 
 async fn read_stdin(tx: channel::Sender<STATUS>) {
