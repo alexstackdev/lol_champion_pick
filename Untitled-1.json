@@ -1,0 +1,246 @@
+{
+  "data": {
+    "actions": [
+      [
+        {
+          "actorCellId": 0,
+          "championId": 0,
+          "completed": false,
+          "id": 1,
+          "isAllyAction": true,
+          "isInProgress": true,
+          "pickTurn": 1,
+          "type": "pick"
+        }
+      ]
+    ],
+    "allowBattleBoost": false,
+    "allowDuplicatePicks": false,
+    "allowLockedEvents": false,
+    "allowRerolling": false,
+    "allowSkinSelection": true,
+    "bans": {
+      "myTeamBans": [],
+      "numBans": 0,
+      "theirTeamBans": []
+    },
+    "benchChampions": [],
+    "benchEnabled": false,
+    "boostableSkinCount": 1,
+    "chatDetails": {
+      "mucJwtDto": {
+        "channelClaim": "",
+        "domain": "",
+        "jwt": "",
+        "targetRegion": ""
+      },
+      "multiUserChatId": "c1~5d639cb78519e4349fbf0716664ca312393c450f",
+      "multiUserChatPassword": "28YHqj5o516Wz2UT"
+    },
+    "counter": -1,
+    "gameId": 0,
+    "hasSimultaneousBans": false,
+    "hasSimultaneousPicks": true,
+    "isCustomGame": true,
+    "isSpectating": false,
+    "localPlayerCellId": 0,
+    "lockedEventIndex": -1,
+    "myTeam": [
+      {
+        "assignedPosition": "",
+        "cellId": 0,
+        "championId": 0,
+        "championPickIntent": 0,
+        "nameVisibilityType": "",
+        "obfuscatedPuuid": "",
+        "obfuscatedSummonerId": 0,
+        "puuid": "",
+        "selectedSkinId": 0,
+        "spell1Id": 1,
+        "spell2Id": 3,
+        "summonerId": 3117536359974368,
+        "team": 1,
+        "wardSkinId": -1
+      }
+    ],
+    "pickOrderSwaps": [],
+    "recoveryCounter": 0,
+    "rerollsRemaining": 0,
+    "skipChampionSelect": false,
+    "theirTeam": [],
+    "timer": {
+      "adjustedTimeLeftInPhase": 89687,
+      "internalNowInEpochMs": 1697288847242,
+      "isInfinite": false,
+      "phase": "BAN_PICK",
+      "totalTimeInPhase": 92687
+    },
+    "trades": []
+  },
+  "eventType": "Update",
+  "uri": "/lol-champ-select/v1/session"
+}
+pretty: {
+  "data": {
+    "actions": [
+      [
+        {
+          "actorCellId": 0,
+          "championId": 0,
+          "completed": false,
+          "id": 1,
+          "isAllyAction": true,
+          "isInProgress": true,
+          "pickTurn": 1,
+          "type": "pick"
+        }
+      ]
+    ],
+    "allowBattleBoost": false,
+    "allowDuplicatePicks": false,
+    "allowLockedEvents": false,
+    "allowRerolling": false,
+    "allowSkinSelection": true,
+    "bans": {
+      "myTeamBans": [],
+      "numBans": 0,
+      "theirTeamBans": []
+    },
+    "benchChampions": [],
+    "benchEnabled": false,
+    "boostableSkinCount": 1,
+    "chatDetails": {
+      "mucJwtDto": {
+        "channelClaim": "",
+        "domain": "",
+        "jwt": "",
+        "targetRegion": ""
+      },
+      "multiUserChatId": "c1~5d639cb78519e4349fbf0716664ca312393c450f",
+      "multiUserChatPassword": "28YHqj5o516Wz2UT"
+    },
+    "counter": -1,
+    "gameId": 0,
+    "hasSimultaneousBans": false,
+    "hasSimultaneousPicks": true,
+    "isCustomGame": true,
+    "isSpectating": false,
+    "localPlayerCellId": 0,
+    "lockedEventIndex": -1,
+    "myTeam": [
+      {
+        "assignedPosition": "",
+        "cellId": 0,
+        "championId": 0,
+        "championPickIntent": 0,
+        "nameVisibilityType": "",
+        "obfuscatedPuuid": "",
+        "obfuscatedSummonerId": 0,
+        "puuid": "",
+        "selectedSkinId": 0,
+        "spell1Id": 14,
+        "spell2Id": 4,
+        "summonerId": 3117536359974368,
+        "team": 1,
+        "wardSkinId": -1
+      }
+    ],
+    "pickOrderSwaps": [],
+    "recoveryCounter": 0,
+    "rerollsRemaining": 0,
+    "skipChampionSelect": false,
+    "theirTeam": [],
+    "timer": {
+      "adjustedTimeLeftInPhase": 89687,
+      "internalNowInEpochMs": 1697288847242,
+      "isInfinite": false,
+      "phase": "BAN_PICK",
+      "totalTimeInPhase": 92687
+    },
+    "trades": []
+  },
+  "eventType": "Update",
+  "uri": "/lol-champ-select/v1/session"
+}
+pretty: {
+  "data": {
+    "actions": [
+      [
+        {
+          "actorCellId": 0,
+          "championId": 0,
+          "completed": false,
+          "id": 1,
+          "isAllyAction": true,
+          "isInProgress": true,
+          "pickTurn": 1,
+          "type": "pick"
+        }
+      ]
+    ],
+    "allowBattleBoost": false,
+    "allowDuplicatePicks": false,
+    "allowLockedEvents": false,
+    "allowRerolling": false,
+    "allowSkinSelection": true,
+    "bans": {
+      "myTeamBans": [],
+      "numBans": 0,
+      "theirTeamBans": []
+    },
+    "benchChampions": [],
+    "benchEnabled": false,
+    "boostableSkinCount": 1,
+    "chatDetails": {
+      "mucJwtDto": {
+        "channelClaim": "",
+        "domain": "",
+        "jwt": "",
+        "targetRegion": ""
+      },
+      "multiUserChatId": "c1~5d639cb78519e4349fbf0716664ca312393c450f",
+      "multiUserChatPassword": "28YHqj5o516Wz2UT"
+    },
+    "counter": -1,
+    "gameId": 0,
+    "hasSimultaneousBans": false,
+    "hasSimultaneousPicks": true,
+    "isCustomGame": true,
+    "isSpectating": false,
+    "localPlayerCellId": 0,
+    "lockedEventIndex": -1,
+    "myTeam": [
+      {
+        "assignedPosition": "",
+        "cellId": 0,
+        "championId": 0,
+        "championPickIntent": 0,
+        "nameVisibilityType": "",
+        "obfuscatedPuuid": "",
+        "obfuscatedSummonerId": 0,
+        "puuid": "",
+        "selectedSkinId": 0,
+        "spell1Id": 14,
+        "spell2Id": 4,
+        "summonerId": 3117536359974368,
+        "team": 1,
+        "wardSkinId": -1
+      }
+    ],
+    "pickOrderSwaps": [],
+    "recoveryCounter": 0,
+    "rerollsRemaining": 0,
+    "skipChampionSelect": false,
+    "theirTeam": [],
+    "timer": {
+      "adjustedTimeLeftInPhase": 89608,
+      "internalNowInEpochMs": 1697288847317,
+      "isInfinite": false,
+      "phase": "BAN_PICK",
+      "totalTimeInPhase": 92687
+    },
+    "trades": []
+  },
+  "eventType": "Update",
+  "uri": "/lol-champ-select/v1/session"
+}

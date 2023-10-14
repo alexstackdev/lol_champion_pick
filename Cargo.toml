@@ -1,0 +1,34 @@
+[package]
+name = "league_of_legend_pick_helper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.4"
+http = "0.2.9"
+native-tls = "0.2.11"
+regex = "1.10.0"
+tokio = { version = "1.32.0", features = [
+    "macros",
+    "rt",
+    "rt-multi-thread",
+    "time",
+] }
+tokio-tungstenite = { version = "0.20.1", features = ["native-tls"] }
+futures-util = { version = "0.3.28", default-features = false, features = [
+    "sink",
+    "std",
+] }
+serde_json = "1.0.107"
+reqwest = { version = "0.11.22", features = ["native-tls"] }
+crossbeam = "0.8.2"
+prettytable = "0.10.0"
+
+
+[profile.release]
+debug = false
+opt-level = "z"
+strip = true
+lto = true
