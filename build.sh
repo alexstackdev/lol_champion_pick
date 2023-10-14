@@ -19,7 +19,7 @@ do
 done
 
 cp "./target/$WIN/release/$BIN_NAME.exe" "./dist/${BIN_NAME}_windows.exe"
-cp "./target/$MAC_SILICON/release/$BIN_NAME" "./dist/${BIN_NAME}_mac_silion"
+cp "./target/$MAC_SILICON/release/$BIN_NAME" "./dist/${BIN_NAME}_mac_silicon"
 cp "./target/$MAC_INTEL/release/$BIN_NAME" "./dist/${BIN_NAME}_mac_intel"
 
 echo "build finish"
